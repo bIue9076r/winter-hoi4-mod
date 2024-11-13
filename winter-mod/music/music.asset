@@ -16,6 +16,6 @@ music = {
 # General war:
 music = {
 	name = "general_war_1"
-	file = "chrs1.ogg"
+	file = "chrs2.ogg"
 	volume = 0.65
 }
