@@ -1,0 +1,204 @@
+capital = 11666
+
+set_oob = "NRP_1936"
+
+starting_train_buffer = 2
+
+# set_naval_oob = "FRA_1936_naval_legacy"
+set_war_support = 0.75
+
+# set_air_oob = "FRA_1936_air_legacy"
+set_technology = {
+	early_fighter = 1
+	naval_bomber1 = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	CAS1 = 1
+}
+
+set_research_slots = 3
+set_stability = 0.5
+add_command_power = 20
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	trench_warfare = 1
+	fleet_in_being = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	basic_train = 1
+}
+
+set_technology = {
+	gwtank = 1
+	basic_light_tank = 1
+	basic_heavy_tank = 1
+	improved_light_tank = 1
+}
+
+set_technology = {
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	basic_heavy_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	basic_battlecruiser = 1
+	early_carrier = 1
+	transport = 1
+}
+
+set_convoys = 300
+
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 100
+	fascism = 0
+	neutrality = 0
+	communism = 0
+}
+
+add_ideas = {
+
+}
+
+recruit_character = FRA_philippe_petain
+recruit_character = FRA_maurice_thorez
+recruit_character = FRA_pierre_laval
+recruit_character = FRA_edouard_daladier
+recruit_character = FRA_jean_de_lattre_de_tassigny
+recruit_character = FRA_alphonse_juin
+recruit_character = FRA_maurice_gamelin
+recruit_character = FRA_maxime_weygand
+recruit_character = FRA_alphonse_georges
+recruit_character = FRA_antoinemariebenoit_besson
+recruit_character = FRA_charles_de_gaulle
+recruit_character = FRA_philippe_leclerc
+recruit_character = FRA_henri_giraud
+recruit_character = FRA_charles_huntziger
+recruit_character = FRA_gastonhenri_billotte
+recruit_character = FRA_henry_freydenberg
+recruit_character = FRA_rene_olry
+recruit_character = FRA_francois_darlan
+recruit_character = FRA_jeanmarie_charles_abrial
+recruit_character = FRA_jeanpierre_esteva
+recruit_character = FRA_jean_de_laborde
+recruit_character = FRA_denis_guillaumat
+recruit_character = FRA_philippe_fequant
+recruit_character = FRA_victor_denain
+recruit_character = FRA_jean_marie_abrial
+recruit_character = FRA_jean_decoux
+recruit_character = FRA_jean_marie_bergeret
+recruit_character = FRA_marcel_gensoul
+recruit_character = FRA_martial_valin
+recruit_character = FRA_rene_emile_godfroy
+recruit_character = FRA_joseph_vuillemin
+recruit_character = FRA_henri_marie_auguste_bineau
+recruit_character = FRA_louis_kahn
+recruit_character = FRA_robert_odic
+recruit_character = FRA_jean_francois_jannekeyn
+recruit_character = FRA_emile_muselier
+recruit_character = FRA_frederic_irene_joliot_curie
+recruit_character = FRA_alfred_heurtaux
+recruit_character = FRA_rene_prioux
+recruit_character = FRA_pierre_alombert_goget
+recruit_character = FRA_gaston_henry_haye
+recruit_character = FRA_georges_bonnet
+recruit_character = FRA_philippe_henriot
+recruit_character = FRA_paul_reynaud
+recruit_character = FRA_pierre_pucheu
+recruit_character = FRA_charles_tillon
+recruit_character = FRA_vincent_auriol
+recruit_character = FRA_rene_massigli
+recruit_character = FRA_charles_maurras
+recruit_character = FRA_zivony_peshkov
+recruit_character = FRA_roger_salengro
+recruit_character = FRA_leon_blum
+recruit_character = FRA_felix_gouin
+recruit_character = FRA_paul_baudouin
+recruit_character = FRA_maurice_gauche
+recruit_character = FRA_jacques_duclos
+recruit_character = FRA_marcel_bucard
+
+### VARIANTS ###
+# 1936 Start #
+### Ship Variants ###
+create_equipment_variant = {
+	name = "630 Series"
+	type = submarine_1
+	upgrades = {
+		ship_reliability_upgrade = 1
+		sub_engine_upgrade = 1
+		sub_stealth_upgrade = 1
+		sub_torpedo_upgrade = 1
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Redoutable Class"
+	type = submarine_1
+	upgrades = {
+		ship_reliability_upgrade = 2
+		sub_engine_upgrade = 2
+		sub_stealth_upgrade = 2
+		sub_torpedo_upgrade = 2
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Chacal Class"
+	type = destroyer_1
+	upgrades = {
+		ship_torpedo_upgrade = 1
+		destroyer_engine_upgrade = 1
+		ship_ASW_upgrade = 1
+		ship_anti_air_upgrade = 1
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Aigle & Vauquelin Class"
+	type = destroyer_1
+	upgrades = {
+		ship_torpedo_upgrade = 2
+		destroyer_engine_upgrade = 2
+		ship_ASW_upgrade = 2
+		ship_anti_air_upgrade = 2
+	}
+}
+
+create_equipment_variant = {
+	name = "Bretagne Class"
+	type = battleship_1
+	upgrades = {
+		ship_reliability_upgrade = 1
+		ship_armor_upgrade = 1
+		ship_gun_upgrade = 1
+	}
+}
