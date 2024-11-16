@@ -1,0 +1,6 @@
+EOP = "countries/Elfhood-of-Presents.txt"
+NRP = "countries/North-Republic.txt"
+FRE = "countries/Frosty-Empire.txt"
+ARF = "countries/Arctic-Federation.txt"
+POU = "countries/Polar-Union.txt"
+WDM = "countries/Winter-Dominion.txt"
