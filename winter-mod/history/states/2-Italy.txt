@@ -3,17 +3,17 @@ state = {
 	name = "STATE_2" # Latium
 	manpower = 2781971
 	
-	state_category = city
+	state_category = metropolis
 
 	history = {
 		owner = EOP
 		victory_points = { 9904 40 } #Rome
 		victory_points = { 11846 1 } #Anzio (was 5)
 		buildings = {
-			infrastructure = 4
-			air_base = 8
-			arms_factory = 1
-			industrial_complex = 4
+			infrastructure = 5
+			arms_factory = 10
+			industrial_complex = 10
+			air_base = 10
 			11751 = {
 				naval_base = 5
 			}

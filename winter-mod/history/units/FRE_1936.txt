@@ -136,3 +136,23 @@ division_template = {
 	}
 	priority = 0
 }
+
+division= {
+	division_name = {
+		is_name_ordered = yes
+		name_order = 1
+	}
+	location = 9620
+	division_template = "Division d'Infanterie" 	# Frontline, best equipment
+	start_experience_factor = 0.3
+}
+
+division= {
+	division_name = {
+		is_name_ordered = yes
+		name_order = 2
+	}
+	location = 9620
+	division_template = "Division d'Infanterie" 	# Frontline, best equipment
+	start_experience_factor = 0.3
+}
