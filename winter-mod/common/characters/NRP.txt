@@ -1,0 +1,55 @@
+characters = {
+        NRP_republican_board_NET = {
+                name = NRP_republican_board_NET
+                portraits = {
+                        civilian = {
+                                large = GFX_portrait_SWI_federal_assembly
+                        }
+                }
+                country_leader = {
+                        ideology = oligarchism
+                }
+        }
+}
+
+characters = {
+        NRP_republican_board = {
+                name = NRP_republican_board
+                portraits = {
+                        civilian = {
+                                large = GFX_portrait_SWI_federal_assembly
+                        }
+                }
+                country_leader = {
+                        ideology = liberalism
+                }
+        }
+}
+
+characters = {
+        NRP_republican_board_COM = {
+                name = NRP_republican_board_COM
+                portraits = {
+                        civilian = {
+                                large = GFX_portrait_SWI_federal_assembly
+                        }
+                }
+                country_leader = {
+                        ideology = marxism
+                }
+        }
+}
+
+characters = {
+        NRP_republican_board_FAS = {
+                name = NRP_republican_board_FAS
+                portraits = {
+                        civilian = {
+                                large = GFX_portrait_SWI_federal_assembly
+                        }
+                }
+                country_leader = {
+                        ideology = fascism_ideology
+                }
+        }
+}

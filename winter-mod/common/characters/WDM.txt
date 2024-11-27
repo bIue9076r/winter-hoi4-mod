@@ -1,0 +1,55 @@
+characters = {
+        WDM_winter_cabinet_NET = {
+                name = WDM_winter_cabinet_NET
+                portraits = {
+                        civilian = {
+                                large = GFX_portrait_SWI_federal_assembly
+                        }
+                }
+                country_leader = {
+                        ideology = anarchism
+                }
+        }
+}
+
+characters = {
+        WDM_winter_cabinet_DEM = {
+                name = WDM_winter_cabinet_DEM
+                portraits = {
+                        civilian = {
+                                large = GFX_portrait_SWI_federal_assembly
+                        }
+                }
+                country_leader = {
+                        ideology = socialism
+                }
+        }
+}
+
+characters = {
+        WDM_winter_cabinet_COM = {
+                name = WDM_winter_cabinet_COM
+                portraits = {
+                        civilian = {
+                                large = GFX_portrait_SWI_federal_assembly
+                        }
+                }
+                country_leader = {
+                        ideology = anarchist_communism
+                }
+        }
+}
+
+characters = {
+        WDM_winter_cabinet = {
+                name = WDM_winter_cabinet
+                portraits = {
+                        civilian = {
+                                large = GFX_portrait_SWI_federal_assembly
+                        }
+                }
+                country_leader = {
+                        ideology = fascism_ideology
+                }
+        }
+}

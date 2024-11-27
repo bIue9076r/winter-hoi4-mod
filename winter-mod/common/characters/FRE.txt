@@ -1,0 +1,55 @@
+characters = {
+        FRE_snow_counsel_NET = {
+                name = FRE_snow_counsel_NET
+                portraits = {
+                        civilian = {
+                                large = GFX_portrait_SWI_federal_assembly
+                        }
+                }
+                country_leader = {
+                        ideology = oligarchism
+                }
+        }
+}
+
+characters = {
+        FRE_snow_counsel_DEM = {
+                name = FRE_snow_counsel_DEM
+                portraits = {
+                        civilian = {
+                                large = GFX_portrait_SWI_federal_assembly
+                        }
+                }
+                country_leader = {
+                        ideology = liberalism
+                }
+        }
+}
+
+characters = {
+        FRE_snow_counsel_COM = {
+                name = FRE_snow_counsel_COM
+                portraits = {
+                        civilian = {
+                                large = GFX_portrait_SWI_federal_assembly
+                        }
+                }
+                country_leader = {
+                        ideology = marxism
+                }
+        }
+}
+
+characters = {
+        FRE_snow_counsel = {
+                name = FRE_snow_counsel
+                portraits = {
+                        civilian = {
+                                large = GFX_portrait_SWI_federal_assembly
+                        }
+                }
+                country_leader = {
+                        ideology = fascism_ideology
+                }
+        }
+}

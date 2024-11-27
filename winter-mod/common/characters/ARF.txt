@@ -1,0 +1,55 @@
+characters = {
+        ARF_artic_federation = {
+                name = ARF_artic_federation
+                portraits = {
+                        civilian = {
+                                large = GFX_portrait_SWI_federal_assembly
+                        }
+                }
+                country_leader = {
+                        ideology = oligarchism
+                }
+        }
+}
+
+characters = {
+        ARF_artic_federation_DEM = {
+                name = ARF_artic_federation_DEM
+                portraits = {
+                        civilian = {
+                                large = GFX_portrait_SWI_federal_assembly
+                        }
+                }
+                country_leader = {
+                        ideology = socialism
+                }
+        }
+}
+
+characters = {
+        ARF_artic_federation_COM = {
+                name = ARF_artic_federation_COM
+                portraits = {
+                        civilian = {
+                                large = GFX_portrait_SWI_federal_assembly
+                        }
+                }
+                country_leader = {
+                        ideology = anarchist_communism
+                }
+        }
+}
+
+characters = {
+        ARF_artic_federation_FAS = {
+                name = ARF_artic_federation_FAS
+                portraits = {
+                        civilian = {
+                                large = GFX_portrait_SWI_federal_assembly
+                        }
+                }
+                country_leader = {
+                        ideology = fascism_ideology
+                }
+        }
+}

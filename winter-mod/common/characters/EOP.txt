@@ -1,0 +1,55 @@
+characters = {
+        EOP_grand_elfhood_NET = {
+                name = EOP_grand_elfhood_NET
+                portraits = {
+                        civilian = {
+                                large = GFX_portrait_SWI_federal_assembly
+                        }
+                }
+                country_leader = {
+                        ideology = anarchism
+                }
+        }
+}
+
+characters = {
+        EOP_grand_elfhood_DEM = {
+                name = EOP_grand_elfhood_DEM
+                portraits = {
+                        civilian = {
+                                large = GFX_portrait_SWI_federal_assembly
+                        }
+                }
+                country_leader = {
+                        ideology = socialism
+                }
+        }
+}
+
+characters = {
+        EOP_grand_elfhood = {
+                name = EOP_grand_elfhood
+                portraits = {
+                        civilian = {
+                                large = GFX_portrait_SWI_federal_assembly
+                        }
+                }
+                country_leader = {
+                        ideology = marxism
+                }
+        }
+}
+
+characters = {
+        EOP_grand_elfhood_FAS = {
+                name = EOP_grand_elfhood_FAS
+                portraits = {
+                        civilian = {
+                                large = GFX_portrait_SWI_federal_assembly
+                        }
+                }
+                country_leader = {
+                        ideology = fascism_ideology
+                }
+        }
+}

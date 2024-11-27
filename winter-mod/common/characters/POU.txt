@@ -1,0 +1,55 @@
+characters = {
+        POU_polar_counsel_NET = {
+                name = POU_polar_counsel_NET
+                portraits = {
+                        civilian = {
+                                large = GFX_portrait_SWI_federal_assembly
+                        }
+                }
+                country_leader = {
+                        ideology = centrism
+                }
+        }
+}
+
+characters = {
+        POU_polar_counsel = {
+                name = POU_polar_counsel
+                portraits = {
+                        civilian = {
+                                large = GFX_portrait_SWI_federal_assembly
+                        }
+                }
+                country_leader = {
+                        ideology = liberalism
+                }
+        }
+}
+
+characters = {
+        POU_polar_counsel_COM = {
+                name = POU_polar_counsel_COM
+                portraits = {
+                        civilian = {
+                                large = GFX_portrait_SWI_federal_assembly
+                        }
+                }
+                country_leader = {
+                        ideology = marxism
+                }
+        }
+}
+
+characters = {
+        POU_polar_counsel_FAS = {
+                name = POU_polar_counsel_FAS
+                portraits = {
+                        civilian = {
+                                large = GFX_portrait_SWI_federal_assembly
+                        }
+                }
+                country_leader = {
+                        ideology = fascism_ideology
+                }
+        }
+}
