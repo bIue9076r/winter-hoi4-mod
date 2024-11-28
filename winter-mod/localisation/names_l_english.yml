@@ -14,7 +14,7 @@
 	ARF: "Arctic Federation"
 	ARF_DEF: "the Arctic Federation"
 	ARF_ADJ: "Arctic"
-	
+
 	POU: "Polar Union"
 	POU_DEF: "the Polar Union"
 	POU_ADJ: "Polar"
@@ -22,3 +22,7 @@
 	WDM: "Winter Dominion"
 	WDM_DEF: "the Winter Dominion"
 	WDM_ADJ: "Winter"
+
+	SNW: "Snow"
+	SNW_DEF: "the Snow"
+	SNW_ADJ: "Snowy"
