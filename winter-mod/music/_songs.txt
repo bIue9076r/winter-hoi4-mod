@@ -12,7 +12,7 @@ music = {
 
 # PEACE SONGS ##################
 music = {
-	song = "general_peace_1"
+	song = "gen_peace_1"
 	
 	chance = {
 		modifier = {
@@ -24,7 +24,19 @@ music = {
 }
 
 music = {
-	song = "general_peace_2"
+	song = "gen_peace_2"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "gen_peace_3"
 	
 	chance = {
 		modifier = {
@@ -38,7 +50,7 @@ music = {
 # WAR SONGS ####################
 
 music = {
-	song = "general_war_1"
+	song = "gen_war_1"
 	
 	chance = {
 		modifier = {

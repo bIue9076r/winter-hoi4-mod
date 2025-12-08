@@ -1,0 +1,34 @@
+﻿l_english:
+	EOP: "Elfhood of Presents"
+	EOP_DEF: "the Elfhood of Presents"
+	EOP_ADJ: "Elfhood"
+
+	NRP: "North Republic"
+	NRP_DEF: "the North-Republic"
+	NRP_ADJ: "North Republican"
+
+	FRE: "Frosty Empire"
+	FRE_DEF: "the Frosty Empire"
+	FRE_ADJ: "Frosty"
+
+	ARF: "Arctic Federation"
+	ARF_DEF: "the Arctic Federation"
+	ARF_ADJ: "Arctic"
+
+	POU: "Polar Union"
+	POU_DEF: "the Polar Union"
+	POU_ADJ: "Polar"
+
+	WDM: "Winter Dominion"
+	WDM_DEF: "the Winter Dominion"
+	WDM_ADJ: "Winter"
+
+	SNW: "Snow"
+	SNW_DEF: "the Snow"
+	SNW_ADJ: "Snowy"
+
+  # maintheme:0 "We Wish You a Merry Christmas"
+  gen_peace_1:0 "We Wish You a Merry Christmas"
+  gen_peace_2:0 "March of the Sugar Plum Army"
+  gen_peace_3:0 "O' Artillery"
+  gen_war_1:0 "Carol of the Bombs"

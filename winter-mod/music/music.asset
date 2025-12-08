@@ -8,20 +8,26 @@ music = {
 
 # General Peace:
 music = {
-	name = "general_peace_1"
+	name = "gen_peace_1"
 	file = "chrs1.ogg"
 	volume = 0.65
 }
 
 music = {
-	name = "general_peace_2"
+	name = "gen_peace_2"
 	file = "chrs3.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "gen_peace_3"
+	file = "chrs4.ogg"
 	volume = 0.65
 }
 
 # General war:
 music = {
-	name = "general_war_1"
+	name = "gen_war_1"
 	file = "chrs2.ogg"
 	volume = 0.65
 }
